@@ -116,3 +116,68 @@ font-size: 14px;
     cursor: pointer;
     margin: 5px 0; /* Espacio vertical entre los botones */
 }
+
+.boton-20000{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 5px 0; /* Espacio vertical entre los botones */
+}
+
+.boton-50000{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 5px 0; /* Espacio vertical entre los botones */
+}
+
+.boton-80000{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 5px 0; /* Espacio vertical entre los botones */
+}
+
+.boton-cancel{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 5px 0; /* Espacio vertical entre los botones */
+}
+
+.boton-120000{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 5px 0; /* Espacio vertical entre los botones */
+}
+
+.boton-250000{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 5px 0; /* Espacio vertical entre los botones */
+}
+
+.boton-400000{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 5px 0; /* Espacio vertical entre los botones */
+}
+
+
