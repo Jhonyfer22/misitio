@@ -1,0 +1,19 @@
+
+/* Estilos para la clase "index" */
+.index {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-align: center; /* Centra el contenido horizontalmente */
+}
+
+#logo{
+    
+    position:relative;
+    width:500px;
+    overflow:hidden;
+    margin:40px auto ;
+
+}
