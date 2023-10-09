@@ -1,16 +1,6 @@
 
 /* Estilos para la clase "index" */
-.boton-inicio {
-    background-color: rgb(18, 18, 115);
-    color: rgb(245, 245, 245);
-    padding: 15px 25px;
-    border: none;
-    cursor: pointer;
-    text-align: center; /* Centra el contenido horizontalmente */
-    
-}
-
-.boton-finalizar{
+.boton-inicio{
     background-color: rgb(18, 18, 115);
     color: rgb(245, 245, 245);
     padding: 15px 25px;
@@ -82,114 +72,16 @@ font-size: 14px;
     flex-direction: column;
     align-items: center;
 }
-.boton {
-    background-color: blue;
+
+
+.boton{
+    background-color: rgb(18, 18, 115);
     color: white;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
     margin: 5px 0; /* Espacio vertical entre los botones */
 }
-
-.boton-retiro{
-    background-color: blue;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    margin: 5px 0; /* Espacio vertical entre los botones */
-}
-
-.boton-continuar{
-    background-color: blue;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    margin: 5px 0; /* Espacio vertical entre los botones */
-}
-
-.boton-cancelar{
-    background-color: blue;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    margin: 5px 0; /* Espacio vertical entre los botones */
-}
-
-.boton-otro-valor{
-    background-color: blue;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    margin: 5px 0; /* Espacio vertical entre los botones */
-}
-
-.boton-20000{
-    background-color: blue;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    margin: 5px 0; /* Espacio vertical entre los botones */
-}
-
-.boton-50000{
-    background-color: blue;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    margin: 5px 0; /* Espacio vertical entre los botones */
-}
-
-.boton-80000{
-    background-color: blue;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    margin: 5px 0; /* Espacio vertical entre los botones */
-}
-
-.boton-cancel{
-    background-color: blue;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    margin: 5px 0; /* Espacio vertical entre los botones */
-}
-
-.boton-120000{
-    background-color: blue;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    margin: 5px 0; /* Espacio vertical entre los botones */
-}
-
-.boton-250000{
-    background-color: blue;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    margin: 5px 0; /* Espacio vertical entre los botones */
-}
-
-.boton-400000{
-    background-color: blue;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    margin: 5px 0; /* Espacio vertical entre los botones */
-}
-
 
 .rectangulo {
     width: 200px;
@@ -208,4 +100,76 @@ font-size: 14px;
     height: 100%;
     font-size: 16px;
     outline: none;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilos para el contenedor */
+.contenedor2 {
+    text-align: center;
+}
+
+/* Estilos para el formulario de cambio de clave */
+.formulario {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 80px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+button[type="submit"] {
+    background-color: #2196F3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Estilos para el mensaje de éxito */
+.mensaje {
+    background-color: #dff0d8;
+    border: 1px solid #3c763d;
+    padding: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.mensaje h1 {
+    color: #3c763d;
+    margin-top: 0;
+}
+
+.mensaje p {
+    color: #3c763d;
 }
